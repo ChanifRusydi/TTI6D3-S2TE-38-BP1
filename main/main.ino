@@ -5,7 +5,7 @@
   Project created using Brian Lough's Universal Telegram Bot Library: https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot
   Example based on the Universal Arduino Telegram Bot Library: https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot/blob/master/examples/ESP8266/FlashLED/FlashLED.ino
 */
-#include <key.h>
+// #include <key.h>
 #ifdef ESP32
   #include <WiFi.h>
 #else
@@ -20,7 +20,7 @@ const char* ssid = "Biznet atas";
 const char* password = "Biznetatas";
 
 // Initialize Telegram BOT
-#define BOTtoken "5863961583:AAFFZHH7qgWyQ-D-sSxgvSBZhPYb0zAWPnQ"  // your Bot Token (Get from Botfather)
+#define BOTtoken "7268202981:AAEzGZTqVnKyi1yqeoxD2Pl8CVPcjDu_LfE"  // your Bot Token (Get from Botfather)
 
 // Use @myidbot to find out the chat ID of an individual or a group
 // Also note that you need to click "start" on a bot before it can
